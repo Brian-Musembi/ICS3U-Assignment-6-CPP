@@ -53,7 +53,7 @@ int main() {
                           << std::endl;
             }
         } catch (std::invalid_argument) {
-            std::cout << radiusInput << " is not a number! Please try again."
+            std::cout << radiusInput << " is not a positive integer! Please try again."
                       << std::endl;
         }
     }
